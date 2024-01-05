@@ -1,0 +1,21 @@
+^ care -> minor update
+~ tilde -> major version update
+package-lock.json -> keep a track exact dependency
+integrity -> keep a hash, whatever is on my machine, verfy
+HMR -? hot module replacement
+React DOm
+
+const creating_a_react_element = React.createElement("Tag we want to creat",{id:"whatever"},"children of the heading");
+                              -> create an object
+                              -> when we render this element on to dom, this become a HTML element
+                              -> To render, we need to create a Root,
+                              @-> const root = ReactDOM.createRoot(document.getElementById("root"))
+                                -> root.render(creating_a_react_element)
+                              --> whatever will happens inside the react will happened inside the root.
+                              ----> and this will be render by the HTML page
+
+                              React is fast because of virtual dom manipulation
+
+
+                              when to call shimmer UI
+                               
